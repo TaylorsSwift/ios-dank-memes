@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BAB57361B2953FF00666190 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB57351B2953FF00666190 /* Meme.swift */; };
+		3BAB57381B2974BA00666190 /* MemeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB57371B2974BA00666190 /* MemeTable.swift */; };
+		3BAB573A1B29757700666190 /* MemeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB57391B29757700666190 /* MemeCollection.swift */; };
+		3BAB573E1B2993DD00666190 /* MemeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB573D1B2993DD00666190 /* MemeCollectionCell.swift */; };
+		3BAB57401B299EAB00666190 /* MemeCellDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB573F1B299EAB00666190 /* MemeCellDetail.swift */; };
+		3BAB57421B29A67B00666190 /* MemeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB57411B29A67B00666190 /* MemeTableCell.swift */; };
+		3BD4CC5F1B2827030068729E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4CC5E1B2827030068729E /* AppDelegate.swift */; };
+		3BD4CC611B2827030068729E /* MemeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4CC601B2827030068729E /* MemeEditor.swift */; };
+		3BD4CC641B2827030068729E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4CC621B2827030068729E /* Main.storyboard */; };
+		3BD4CC661B2827030068729E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4CC651B2827030068729E /* Images.xcassets */; };
+		3BD4CC691B2827030068729E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4CC671B2827030068729E /* LaunchScreen.xib */; };
+		3BD4CC751B2827040068729E /* DankMemesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4CC741B2827040068729E /* DankMemesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BD4CC6F1B2827040068729E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD4CC511B2827030068729E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD4CC581B2827030068729E;
+			remoteInfo = DankMemes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BAB57351B2953FF00666190 /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
+		3BAB57371B2974BA00666190 /* MemeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTable.swift; sourceTree = "<group>"; };
+		3BAB57391B29757700666190 /* MemeCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeCollection.swift; sourceTree = "<group>"; };
+		3BAB573D1B2993DD00666190 /* MemeCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeCollectionCell.swift; sourceTree = "<group>"; };
+		3BAB573F1B299EAB00666190 /* MemeCellDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeCellDetail.swift; sourceTree = "<group>"; };
+		3BAB57411B29A67B00666190 /* MemeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTableCell.swift; sourceTree = "<group>"; };
+		3BD4CC591B2827030068729E /* DankMemes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DankMemes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD4CC5D1B2827030068729E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD4CC5E1B2827030068729E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BD4CC601B2827030068729E /* MemeEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeEditor.swift; sourceTree = "<group>"; };
+		3BD4CC631B2827030068729E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BD4CC651B2827030068729E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BD4CC681B2827030068729E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3BD4CC6E1B2827040068729E /* DankMemesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DankMemesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD4CC731B2827040068729E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD4CC741B2827040068729E /* DankMemesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DankMemesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD4CC561B2827030068729E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD4CC6B1B2827040068729E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BAB57321B2953B100666190 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BD4CC601B2827030068729E /* MemeEditor.swift */,
+				3BAB57371B2974BA00666190 /* MemeTable.swift */,
+				3BAB57391B29757700666190 /* MemeCollection.swift */,
+				3BAB573D1B2993DD00666190 /* MemeCollectionCell.swift */,
+				3BAB573F1B299EAB00666190 /* MemeCellDetail.swift */,
+				3BAB57411B29A67B00666190 /* MemeTableCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3BAB57331B2953C000666190 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB57351B2953FF00666190 /* Meme.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3BAB57341B2953CA00666190 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BD4CC621B2827030068729E /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3BD4CC501B2827030068729E = {
+			isa = PBXGroup;
+			children = (
+				3BD4CC5B1B2827030068729E /* DankMemes */,
+				3BD4CC711B2827040068729E /* DankMemesTests */,
+				3BD4CC5A1B2827030068729E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD4CC5A1B2827030068729E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD4CC591B2827030068729E /* DankMemes.app */,
+				3BD4CC6E1B2827040068729E /* DankMemesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD4CC5B1B2827030068729E /* DankMemes */ = {
+			isa = PBXGroup;
+			children = (
+				3BAB57341B2953CA00666190 /* View */,
+				3BAB57331B2953C000666190 /* Model */,
+				3BAB57321B2953B100666190 /* Controller */,
+				3BD4CC5E1B2827030068729E /* AppDelegate.swift */,
+				3BD4CC651B2827030068729E /* Images.xcassets */,
+				3BD4CC671B2827030068729E /* LaunchScreen.xib */,
+				3BD4CC5C1B2827030068729E /* Supporting Files */,
+			);
+			path = DankMemes;
+			sourceTree = "<group>";
+		};
+		3BD4CC5C1B2827030068729E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD4CC5D1B2827030068729E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BD4CC711B2827040068729E /* DankMemesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD4CC741B2827040068729E /* DankMemesTests.swift */,
+				3BD4CC721B2827040068729E /* Supporting Files */,
+			);
+			path = DankMemesTests;
+			sourceTree = "<group>";
+		};
+		3BD4CC721B2827040068729E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD4CC731B2827040068729E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD4CC581B2827030068729E /* DankMemes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD4CC781B2827040068729E /* Build configuration list for PBXNativeTarget "DankMemes" */;
+			buildPhases = (
+				3BD4CC551B2827030068729E /* Sources */,
+				3BD4CC561B2827030068729E /* Frameworks */,
+				3BD4CC571B2827030068729E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DankMemes;
+			productName = DankMemes;
+			productReference = 3BD4CC591B2827030068729E /* DankMemes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BD4CC6D1B2827040068729E /* DankMemesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD4CC7B1B2827040068729E /* Build configuration list for PBXNativeTarget "DankMemesTests" */;
+			buildPhases = (
+				3BD4CC6A1B2827040068729E /* Sources */,
+				3BD4CC6B1B2827040068729E /* Frameworks */,
+				3BD4CC6C1B2827040068729E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD4CC701B2827040068729E /* PBXTargetDependency */,
+			);
+			name = DankMemesTests;
+			productName = DankMemesTests;
+			productReference = 3BD4CC6E1B2827040068729E /* DankMemesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD4CC511B2827030068729E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Rithms;
+				TargetAttributes = {
+					3BD4CC581B2827030068729E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3BD4CC6D1B2827040068729E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3BD4CC581B2827030068729E;
+					};
+				};
+			};
+			buildConfigurationList = 3BD4CC541B2827030068729E /* Build configuration list for PBXProject "DankMemes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BD4CC501B2827030068729E;
+			productRefGroup = 3BD4CC5A1B2827030068729E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD4CC581B2827030068729E /* DankMemes */,
+				3BD4CC6D1B2827040068729E /* DankMemesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD4CC571B2827030068729E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD4CC641B2827030068729E /* Main.storyboard in Resources */,
+				3BD4CC691B2827030068729E /* LaunchScreen.xib in Resources */,
+				3BD4CC661B2827030068729E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD4CC6C1B2827040068729E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD4CC551B2827030068729E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAB57361B2953FF00666190 /* Meme.swift in Sources */,
+				3BAB573A1B29757700666190 /* MemeCollection.swift in Sources */,
+				3BAB57421B29A67B00666190 /* MemeTableCell.swift in Sources */,
+				3BAB57401B299EAB00666190 /* MemeCellDetail.swift in Sources */,
+				3BD4CC611B2827030068729E /* MemeEditor.swift in Sources */,
+				3BAB573E1B2993DD00666190 /* MemeCollectionCell.swift in Sources */,
+				3BAB57381B2974BA00666190 /* MemeTable.swift in Sources */,
+				3BD4CC5F1B2827030068729E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD4CC6A1B2827040068729E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD4CC751B2827040068729E /* DankMemesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BD4CC701B2827040068729E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD4CC581B2827030068729E /* DankMemes */;
+			targetProxy = 3BD4CC6F1B2827040068729E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BD4CC621B2827030068729E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD4CC631B2827030068729E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BD4CC671B2827030068729E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD4CC681B2827030068729E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD4CC761B2827040068729E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BD4CC771B2827040068729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD4CC791B2827040068729E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DankMemes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3BD4CC7A1B2827040068729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DankMemes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3BD4CC7C1B2827040068729E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DankMemesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DankMemes.app/DankMemes";
+			};
+			name = Debug;
+		};
+		3BD4CC7D1B2827040068729E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DankMemesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DankMemes.app/DankMemes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD4CC541B2827030068729E /* Build configuration list for PBXProject "DankMemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD4CC761B2827040068729E /* Debug */,
+				3BD4CC771B2827040068729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD4CC781B2827040068729E /* Build configuration list for PBXNativeTarget "DankMemes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD4CC791B2827040068729E /* Debug */,
+				3BD4CC7A1B2827040068729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD4CC7B1B2827040068729E /* Build configuration list for PBXNativeTarget "DankMemesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD4CC7C1B2827040068729E /* Debug */,
+				3BD4CC7D1B2827040068729E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BD4CC511B2827030068729E /* Project object */;
+}
